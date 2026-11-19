@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart } from "lucide-react";
+
 
 
 function ToyCard({ toy, onDeleteToy, onLikeToy }) {
@@ -22,7 +22,7 @@ function ToyCard({ toy, onDeleteToy, onLikeToy }) {
           className="like-btn"
           onClick={() => onLikeToy(toy)}          
           >
-            <Heart />
+            
             Like {"<3"}
       </button>
 
